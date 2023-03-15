@@ -1,0 +1,165 @@
+*{
+ font-family: 'Red Hat Text', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box
+}
+
+body{
+ height: 100vh;
+ width: 100%;
+ overflow: hidden;
+ background: url(/images/bg-stars.svg);
+ background:  linear-gradient(180deg, rgba(30,31,40,1) 32%, rgba(33,28,44,1) 37%, rgba(35,28,42,1) 58%, rgba(43,33,52,1) 70%) ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ 
+}
+
+.background-hills{
+ width: 100%;
+ height: 25vh;
+ position: absolute;
+ bottom: 0;
+}
+
+.title{
+ color: #fff;
+}
+
+.container{
+ width: 100%;
+ max-width: 620px;
+ display: flex;
+ gap: 2rem;
+ margin: 10rem 0;
+}
+
+.time{
+ background-color: hsl(236, 21%, 26%);
+ border-radius: 10px;
+ color: hsl(345, 95%, 68%);
+ font-family: inherit;
+ text-align: center;
+ width: 9rem;
+ height: 8rem;
+ box-shadow: 0 10px 8px hsl(234, 17%, 12%);
+}
+
+.time h1{
+ font-size: 4rem;
+ margin-top: 1.5rem;
+}
+
+.time div{
+ margin-top: 2.3rem;
+ color: hsl(237, 18%, 59%);
+}
+
+.hills{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 20vh;
+ max-height: 30vh;
+}
+
+.socials{
+ position: absolute;
+ bottom: 3rem;
+ display: flex;
+ gap: 1.2rem;
+ cursor: pointer;
+}
+
+.socials path:hover{
+ fill: hsl(345, 95%, 68%);
+}
+
+@media only screen and (max-width:375px){
+  *{
+ font-family: 'Red Hat Text', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box
+}
+
+body{
+ height: 100vh;
+ width: 100%;
+ overflow: hidden;
+ background: url(/images/bg-stars.svg);
+ background:  linear-gradient(180deg, rgba(30,31,40,1) 32%, rgba(33,28,44,1) 37%, rgba(35,28,42,1) 58%, rgba(43,33,52,1) 70%) ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ padding: 1rem;
+}
+
+.background-hills{
+ width: 100%;
+ height: 25vh;
+ position: absolute;
+ bottom: 0;
+}
+
+.title{
+ color: #fff;
+ text-align: center;
+}
+
+.container{
+ width: 100%;
+ max-width: 620px;
+ display: flex;
+ gap: 1rem;
+ margin: 10rem 0;
+}
+
+.time{
+ background-color: hsl(236, 21%, 26%);
+ border-radius: 10px;
+ color: hsl(345, 95%, 68%);
+ font-family: inherit;
+ text-align: center;
+ width: 10rem;
+ height: 5rem;
+ box-shadow: 0 10px 8px hsl(234, 17%, 12%);
+}
+
+.time h1{
+ font-size: 2rem;
+ margin-top: 1rem;
+}
+
+.time div{
+ margin-top: 2.3rem;
+ color: hsl(237, 18%, 59%);
+ font-size: 0.8rem;
+}
+
+.hills{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 20vh;
+ max-height: 30vh;
+}
+
+.socials{
+ position: absolute;
+ bottom: 3rem;
+ display: flex;
+ gap: 1.2rem;
+ cursor: pointer;
+}
+
+.socials path:hover{
+ fill: hsl(345, 95%, 68%);
+} 
+}
